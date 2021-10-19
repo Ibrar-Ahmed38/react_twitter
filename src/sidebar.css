@@ -1,0 +1,21 @@
+.sidebar{
+    border-right: 1px solid var(--twitter-color);
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+        
+}
+
+.twitter__icon{
+    color:var(--twitter-color);
+}
+
+.sidebar-btn{
+   background-color : skyblue;
+   width: 180px;
+   height: 40px;
+   border: none;
+   border-radius: 20px;
+   margin-top: 20px;
+}
+
