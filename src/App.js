@@ -1,5 +1,4 @@
 import React from 'react'
-
 import NewsFeed from './Components/NewsFeed'
 import Sidebar from './Sidebar'
 import './App.css'

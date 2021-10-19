@@ -1,18 +1,15 @@
 .sidebaroption{
+    padding-top: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;
     padding: 14px;
-   
-     
 }
 
 .sidebaroption :hover{
     background-color: #4aebe3;
     color: (--twitter-color);
-    
 }
-
 
 .sidebaroption > h2{
     font-weight: 800;
@@ -28,6 +25,8 @@
     color: (--twitter-color);
 }
 
+
 .sidebar-btn{
-    background-color: var(--twitter-color);
+    background-color: #1D9BF0
 }
+
