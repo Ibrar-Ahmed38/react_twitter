@@ -39,26 +39,42 @@
     font-weight: 900 !important;
     text-transform: inherit !important;
     border-radius: 30px !important ;
-    width: 80px;
+    width: 100px;
     height: 40px;
     margin-top: 20px;
-    margin-left: auto !important;
+    margin-left: 80% !important;
   
 }
 
 .tweetbox_input >input{
+    
     flex: 1;
     margin-left: 20px;
     font-size: 20px;
     border: none;    
 }
 
-.Input__url >{
-    padding: 10px;
+.Input__url{
+    width: 200px;
+    /* padding-top: 20px; */
+    /* padding: 20px; */
     border: none;
 
 }
-/* .tweets_send{
+
+.everyone-btn{
+    width: 200px;
+    border: none;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-color: transparent;
+    color:#A6D8F9;
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+/*
+.tweets_send{
     display: flex;
     border: none;
     margin-right: 20px;

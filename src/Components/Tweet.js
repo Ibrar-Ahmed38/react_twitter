@@ -9,17 +9,23 @@ const Tweet = () => {
         <div className="tweet-box">
             <form action="">
                 <div className="tweetbox_input">
-                    <img src={Images} className="Profile_img" alt="" srcset="" />
-                    <input type="text" className="tweets_send" placeholder="What's happens" id="" />
-                    <input type="text" className="Input__url"  placeholder="Optional Enter your URL" />
-
+                    <img src={Images} className="Profile_img" alt="ibrar.jpg"/>
+                    <input type="text" className="tweets_send" placeholder="What's happening?"/>
+                        <br/>
+                    <button className="everyone-btn mt-3"><i class="fas fa-globe-europe"></i> Every one can reply</button>            
+                
                    
                 </div>
             </form>
             <button className="tweet-btn">Tweet</button>
+            
         </div>
 
         <div>
+            <Post />
+
+            <Post />
+
             <Post />
         </div>
   </>
