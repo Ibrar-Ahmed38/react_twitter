@@ -1,3 +1,69 @@
-/* .widgets{
-    flex: 0.4;
-} */
+.widgets{
+    flex: 0.3;
+}
+
+.widgets_input{
+display: flex;
+align-items: center;
+background-color: var(--twitter-background);
+border-radius: 20px;
+margin-top: 10px;
+margin-left: 20px;
+}
+
+.widgets_input > input{
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: var(--twitter-background);
+
+}
+
+.widgets__WidgetContainer{
+    margin-top: 20px;
+    background-color: var(--twitter-background);
+    width: 100%;
+    height: 85vh;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.hashtags{
+   
+    border-radius: 10px;
+}
+
+.hashtags :hover {
+    background-color : #EFF1F1
+}
+.hashtags a{
+    color: black;
+    padding-bottom: 1px solid var(--twitter-color);
+}
+.hashtags > * {
+    text-decoration: none;
+    color: black;
+}
+.hashtags li{
+    list-style: none;
+}
+
+.hashtags li :hover{
+    background-color: var(--twitter-color);
+}
+table{
+    display: flex;
+    flex-direction: column;
+}
+
+.hashdev{
+    font-weight: 600;
+}
+
+.trending__data{
+    margin-top: 10px;
+}
+
+.three__dots{
+    margin-left: 130px;
+}

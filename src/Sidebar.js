@@ -14,7 +14,7 @@ import './sidebar.css'
 function Sidebar () {
     return (
         <div className="sidebar">
-            <TwitterIcon className="twitter__icon"/>
+            <button className="twitter__div"><i class="twitter__icon fab fa-twitter"></i></button>
 
         <Sidebaroption active text="Home" Icon={HomeIcon}/>
         <Sidebaroption text="Explore" Icon={SearchOutlinedIcon}/>

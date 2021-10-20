@@ -7,11 +7,27 @@
         
 }
 
-.twitter__icon{
+
+/* .twitter__icon{
     color:var(--twitter-color);
     margin-left: 20px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 19px;
 
+} */
+
+.twitter__div{
+    background: transparent;
+    border : none;
 }
+
+.twitter__icon{
+    font-size: 40px;
+    color: var(--twitter-color);
+    
+}
+
 
 .sidebar-btn{
    background-color : var(--twitter-color);

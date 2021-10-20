@@ -11,8 +11,70 @@ const Widgets = () => {
             </div>
 
             <div className="widgets__WidgetContainer">
-                <h2>What's Happings</h2>
+                <h4 className="text-center">What's Happings</h4>
+
+                <div className="trending__post">
+                <div className="hashtags mt-5">
+                    <table>
+                        <td>
+                            <tr>Trending in Pakistan
+                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            </tr>                  
+                            <tr className="hashdev">#developerIbrar</tr>
+                            <tr>112.M tweets</tr>  
+                               
+                        </td>
+                    </table>
+
+                    <table>
+                        <td>
+                            <tr>Trending in Pakistan
+                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            </tr>                  
+                            <tr className="hashdev">#developerIbrar</tr>
+                            <tr>112.M tweets</tr>  
+                               
+                        </td>
+                    </table>
+
+                    <table>
+                        <td className="trending__data">
+                            <tr>Technology trending
+                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            </tr>                  
+                            <tr className="hashdev">#45percentage</tr>
+                            <tr>112.M tweets</tr>  
+                               
+                        </td>
+                    </table>
+
+                    <table>
+                        <td className="trending__data">
+                            <tr>Trending in Sindh
+                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            </tr>                  
+                            <tr className="hashdev">#MernStackdeveloper</tr>
+                            <tr>1M tweets</tr>  
+                               
+                        </td>
+                    </table>
+
+                    <table>
+                        <td className="trending__data">
+                            <tr>Trending in Pakistan
+                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            </tr>                  
+                            <tr className="hashdev">#BackendDeveloer</tr>
+                            <tr>11.M tweets</tr>  
+                               
+                        </td>
+                    </table>
+                    
+                </div> 
             </div>
+            </div>
+
+          
         </div>
     )
 }
