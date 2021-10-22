@@ -1,9 +1,11 @@
+
 .sidebaroption{
     padding-top: 20px;
     display: flex;
     align-items: center;
     cursor: pointer;
     padding: 14px;
+    left: -250px;
 }
 
 .sidebaroption :hover{
@@ -29,4 +31,5 @@
 .sidebar-btn{
     background-color: #1D9BF0
 }
+
 

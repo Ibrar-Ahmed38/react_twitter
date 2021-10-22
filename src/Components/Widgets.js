@@ -20,7 +20,7 @@ const Widgets = () => {
                             <tr>Trending in Pakistan
                             <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
                             </tr>                  
-                            <tr className="hashdev">#developerIbrar</tr>
+                            <tr className="hashdev">#ReactJs</tr>
                             <tr>112.M tweets</tr>  
                                
                         </td>
@@ -31,7 +31,7 @@ const Widgets = () => {
                             <tr>Trending in Pakistan
                             <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
                             </tr>                  
-                            <tr className="hashdev">#developerIbrar</tr>
+                            <tr className="hashdev">#ExpressJs</tr>
                             <tr>112.M tweets</tr>  
                                
                         </td>
@@ -42,7 +42,7 @@ const Widgets = () => {
                             <tr>Technology trending
                             <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
                             </tr>                  
-                            <tr className="hashdev">#45percentage</tr>
+                            <tr className="hashdev">#NodeJs</tr>
                             <tr>112.M tweets</tr>  
                                
                         </td>
@@ -51,7 +51,7 @@ const Widgets = () => {
                     <table>
                         <td className="trending__data">
                             <tr>Trending in Sindh
-                            <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
+                            <a href="#"><i class="mern__dots fas fa-ellipsis-h"></i></a>
                             </tr>                  
                             <tr className="hashdev">#MernStackdeveloper</tr>
                             <tr>1M tweets</tr>  
@@ -64,7 +64,7 @@ const Widgets = () => {
                             <tr>Trending in Pakistan
                             <a href="#"><i class="three__dots fas fa-ellipsis-h"></i></a>
                             </tr>                  
-                            <tr className="hashdev">#BackendDeveloer</tr>
+                            <tr className="hashdev">#BackendDeveloeper</tr>
                             <tr>11.M tweets</tr>  
                                
                         </td>

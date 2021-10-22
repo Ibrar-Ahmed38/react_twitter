@@ -3,7 +3,7 @@ import './sidebaroption.css'
 
 const Sidebaroption = ({active, text, Icon}) => {
     return (
-        <div className={`sidebaroption  ${active} && 'sidebaroption--active'` }>
+        <div id="Side__baroption" className={`sidebaroption  ${active} && 'sidebaroption--active'` }>
             <Icon />
             <h2>{text}</h2>
         </div>
