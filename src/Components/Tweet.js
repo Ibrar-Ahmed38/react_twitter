@@ -1,9 +1,19 @@
-import React from 'react'
+import React , {useEffect, useState} from 'react'
 import Images from './Images/ibrar.jpg'
 import './tweet.css'
 import Post from './Post'
+import db from '../Firebase'
 
 const Tweet = () => {
+
+    const [posts, setPost] = useState([])
+
+    useEffect( ()=>{
+        db.collection('post').onSnapshot(onSnapshot=>(
+            setPost(onSnapshot.doc.map(doc => doc.data))
+        ))
+    },[])
+
     return (
         <>
         <div className="tweet-box">
@@ -22,13 +32,43 @@ const Tweet = () => {
         </div>
 
         <div>
-            <Post />
 
-            <Post />
+           {posts && posts.map( (postObj)=>{
+               return(
+                   <div>
+                <Post 
+                displayName={postObj.displayName}
+                userName={postObj.userName}
+                verified={postObj.verified}
+                text={postObj.text}
+                images={postObj.images}
+                avatar={postObj.avatar}
 
-            <Post />
+                />
+                   </div>
+               )
+           })}
+
+        {/* {posts.map( (postObj)=>{
+            return(
+                <>
+                <Post 
+                displayName={postObj.displayName}
+                userName={postObj.userName}
+                verified={postObj.verified}
+                text={postObj.text}
+                images={postObj.images}
+                avatar={postObj.avatar}
+                />
+
+                </>
+            )
+        })} */}
+
+        
+    
         </div>
-  </>
+    </>
     )
 }
 

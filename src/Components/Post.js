@@ -13,25 +13,23 @@ const Post = ({ displayName, userName, verified, text, images }) => {
         <div className="post_header">
           <div className="post_heading">
             <h4>
-              Ibrar Ahmed
+              {displayName} {""}
               <span>
                   <i className="verifed__tick far fa-badge-check"></i>
               </span>
-              <h5>@ibrarsoomro88</h5>
+              <h5>@{userName}</h5>
             </h4>
 
             <div className="headerDiscription">
               <p>
-                Hello this is a my first post in twitter clone Lorem ipsum dolor
-                sit  in twitter clone Lorem ipsum dolor
-                sit 
+              {text}
               </p>
             </div>
           </div>
 
           <div className="psot__img">
             <img
-             src="https://media.giphy.com/media/YRK6HL1CEMUxZHLvjl/giphy.gif" className="setPostImg" alt="ibrar.jpg" />
+             src={Images} className="setPostImg" alt="ibrar.jpg" />
           </div>
         </div>
       </div>
